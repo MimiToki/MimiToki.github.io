@@ -158,59 +158,59 @@ select {
 
 /*============ backgrund ============*/
 .wBg {
-    background: #fff url(../image/head/titlebg.jpg);
+    background: #fff url('../image/head/titlebg.jpg');
 }
 .about,
 .fo-About {
-	background: url(../image/head/head-About.jpg);
+	background: url('../image/head/head-About.jpg');
 }
 .menu,
 .fo-Menu {
-	background: url(../image/head/head-Menu.jpg);
+	background: url('../image/head/head-Menu.jpg');
 }
 .team,
 .fo-Team {
-	background: url(../image/head/head-Team.jpg);
+	background: url('../image/head/head-Team.jpg');
 }
 .contact,
 .fo-Contact {
-	background: url(../image/head/head-Contact.jpg);
+	background: url('../image/head/head-Contact.jpg');
 }
 .trim-front-ATypeA {
-	background: url(../image/body/trim-front-ATypeA.jpg);
+	background: url('../image/body/trim-front-ATypeA.jpg');
 }
 .trim-front-ATypeB {
-	background: url(../image/body/trim-front-ATypeB.jpg);
+	background: url('../image/body/trim-front-ATypeB.jpg');
 }
 .trim-front-BTypeA {
-	background: url(../image/body/trim-front-BTypeA.jpg);
+	background: url('../image/body/trim-front-BTypeA.jpg');
 }
 .trim-front-BTypeB {
-	background: url(../image/body/trim-front-BTypeB.jpg);
+	background: url('../image/body/trim-front-BTypeB.jpg');
 }
 .trim-front-BTypeC {
-	background: url(../image/body/trim-front-BTypeC.jpg);
+	background: url('../image/body/trim-front-BTypeC.jpg');
 }
 .trim-front-CTypeA {
-	background: url(../image/body/trim-front-CTypeA.jpg);
+	background: url('../image/body/trim-front-CTypeA.jpg');
 }
 .menu-img-a {
-	background: url(../image/body/typeB-img-B.jpg);
+	background: url('../image/body/typeB-img-B.jpg');
 }
 .team-img-A {
-	background: url(../image/body/team-img-A.jpg);
+	background: url('../image/body/team-img-A.jpg');
 }
 .team-img-B {
-	background: url(../image/body/team-img-B.jpg);
+	background: url('../image/body/team-img-B.jpg');
 }
 .team-img-C {
-	background: url(../image/body/team-img-C.jpg);
+	background: url('../image/body/team-img-C.jpg');
 }
 .team-img-D {
-	background: url(../image/body/team-img-D.jpg);
+	background: url('../image/body/team-img-D.jpg');
 }
 .team-img-E {
-	background: url(../image/body/team-img-E.jpg);
+	background: url('../image/body/team-img-E.jpg');
 }
 .homeH::before,
 .about::before,
