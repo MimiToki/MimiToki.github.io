@@ -1,0 +1,104 @@
+
+/*============ NAVIGATION ============*/
+@media only screen and (min-width:990px) {
+.et-hero-tab {
+	color: rgba(255,255,255,1.00);
+}
+.et-hero-tab.scrolled {
+	color: rgba(11,11,11,1.00);
+}
+.et-hero-tab:hover, .et-hero-tab:focus,
+.et-hero-tab:hover.scrolled, .et-hero-tab:focus.scrolled {
+	color: rgba(200,200,200,1.00);
+}
+.navToggle {
+	color: rgba(255,255,255,0);
+}
+.navToggle.scrolled {
+	color: rgba(67,67,67,0);
+}
+.door {
+	background: rgba(255,255,255,0);
+}
+.door.scrolled {
+	background: rgba(255,255,255,1.00);
+}
+.navToggle dl {
+	background: rgba(255,255,255,0);
+}
+.door,
+.door.scrolled {
+	position: fixed;
+}
+.et-hero-tab,
+.et-hero-tab.scrolled,
+.navigation li {
+	display: inline-block;
+} 
+nav {
+	top: -80px;
+}
+.navigation {
+	padding-right: 7%;
+}
+.et-hero-tab,
+.et-hero-tab.scrolled {
+	margin: 15px;
+	letter-spacing: 1px;
+	font-size: 15px;
+}
+.navToggle,
+.navToggle.scrolled {
+	margin: -20px auto 0;
+	padding: 0 0 50px;
+}
+}
+@media only screen and (max-width:959px) {
+nav ul li .et-hero-tab {
+	color: rgba(11,11,11,1.00);
+}
+nav {
+	background: rgba(255,255,255,1.00);
+}
+nav ul li,
+.navToggle {
+	font-size: 20px;
+}
+.navToggle dl {
+	font-size: 15px;
+}
+nav {
+	height: 110px;
+	overflow: hidden;
+	top: 0px;
+}
+nav.open {
+	height: 100vh;
+}
+nav ul {
+	padding-top: 5%;
+}
+nav ul li {
+	margin: 0 0 10% -40px;
+}
+nav ul li .et-hero-tab {
+	padding: 2px 0;
+}
+.navToggle {
+	margin: 20px auto 0;
+}
+.navToggle dl {
+	width: 50%;
+	letter-spacing: 3px;
+	padding: 10px 0px;
+	border-width: 2px;
+	border-style: solid;
+	cursor: pointer;
+}
+.navigation {
+	float: none;
+}
+}
+/*============ NAVIGATION　End ============*/
+/* Top css */ 
+/* Top css End */
