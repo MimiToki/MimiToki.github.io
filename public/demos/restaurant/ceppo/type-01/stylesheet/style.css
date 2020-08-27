@@ -1,0 +1,321 @@
+/* Top css */ 
+#sec-top {
+    width: 98%;
+    height: 97vh;
+    margin: 10px auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.grid {
+    width: 100%;
+    margin: 0 auto;
+}
+.TitleLogos {
+    width: 100%;
+    height: 97vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,1.00);
+}
+.section {
+    width: 98%;
+    height: auto;
+    margin: 0 auto;
+}
+.TitleItem {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    z-index: 999;
+	display: inline-block;
+}
+.TitleItem img {
+    width: 20%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 999;
+}
+.dgn_wrapper {
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+.wBg {
+    background: #fff url(../image/titlebg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 120%;
+    position: absolute;
+    top: 0;
+    width: 120%;
+}
+.grid-a {
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.MainPhoto-a {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+}
+.MainPhotos {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    float: left;
+}
+.MainPhoto-a img {
+    width: 100%;
+    height: auto;
+}
+.MainDescription-a {
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.item {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+.stg {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.item p {
+    padding-top: 10px;
+    font-size: 15px;
+    line-height: 2.0em;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn-action {
+    padding: 30px 0;
+    font-size: 15px;
+	text-align: center;
+}
+.btn-action a {
+    padding: 7px 15px;
+    border-bottom: 1px solid rgba(11,11,11,1.00);
+    border-left: 1px solid rgba(11,11,11,1.00);
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    font-family: 'Quicksand', sans-serif;
+}
+.btn-action a:hover {
+    font-size: 17px;
+    padding: 12px 20px;
+    border-bottom: 1px solid rgba(11,11,11,0);
+    border-left: 1px solid rgba(11,11,11,0);
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.btn-action a, .btn-action a:visited {
+    color: rgba(11,11,11,1.00);
+}
+.grid-b {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    padding: 100px 0;
+    overflow: hidden;
+    text-align: center;
+    background: url(../image/head/bgimg.jpg) repeat;
+    background-size: 30%;
+}
+.MainSec {
+    width: calc(99%/3);
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    float: left;
+}
+.MainSec-a {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.MainDescription-b {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width:991px) {
+.section {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+.grid {
+    width: 100%;
+    margin: 0 auto;
+}
+.TitleLogos {
+    width: 100%;
+    height: 97vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,1.00);
+}
+.grid-a {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    overflow: hidden;
+}
+.TitleItem {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    z-index: 999;
+}
+.MainTitle {
+    margin: 0 auto;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.TitleItem img {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    z-index: 999;
+}
+.MainPhoto-a {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+.MainPhotos {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.MainPhoto-a img {
+    width: 100%;
+    height: auto;
+}
+.MainDescription-a {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+.left {
+    float: left;
+}
+.right {
+    float: none;
+}
+.item {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+}
+.stg {
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+}
+.grid-b {
+    width: 100%;
+    height: auto;
+    margin: 50px auto;
+    padding: 0;
+    overflow: hidden;
+    text-align: left;
+    background: url(../image/head/bgimg.jpg) repeat;
+    background-size: 100%;
+}
+.MainSec {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+}
+
+@media only screen and (max-width:480px) {
+.grid {
+    width: 100%;
+    margin: 0 auto;
+}
+.TitleLogos {
+    width: 100%;
+    height: 97vh;
+    margin: 0 auto;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: rgba(255,255,255,1.00);
+}
+.TitleItem {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    z-index: 999;
+}
+.MainTitle {
+    margin: 0 auto;
+    font-size: 80px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+.TitleItem p {
+    font-size: 20px;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+}
+}
+/* Top css End */

@@ -1,0 +1,388 @@
+body {
+    background: rgba(255,255,255,1.00);
+    height: auto;
+    max-width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 1.5em;
+	letter-spacing: 0.7pt;
+    overflow-x: hidden;
+    animation: fadeIn 1.8s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1.8s ease 0s 1 normal;
+	-ms-overflow-style: scrollbar !important;
+}
+@keyframes fadeIn {
+ 0% {
+opacity: 0
+}
+ 100% {
+opacity: 1
+}
+}
+ @-webkit-keyframes fadeIn {
+ 0% {
+opacity: 0
+}
+ 100% {
+opacity: 1
+}
+}
+.NavLogo {
+    width: 120px;
+    height: auto;
+    margin: 0 auto;
+    top: 10px;
+    left: 1%;
+    position: fixed;
+    text-align: center;
+    z-index: 1003;
+}
+.NavLogo img {
+    width: 100%;
+    height: auto;
+    margin: 5px 40px;
+}
+#Black {
+    opacity: 1;
+    transition: .5s;
+}
+.hamburger {
+    outline: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1004;
+    margin: 0 1%;
+    padding: 20px;
+    background: rgba(255,255,255,1.00);
+    transition: .5s;
+}
+.hamburger .hamburger-box .hamburger-inner {
+    height: 1px;
+    background: rgba(11,11,11,1.00);
+    box-shadow: 0 0 5px rgba(255,255,255,1.00);
+    width: 30px;
+    right: 4px;
+}
+.hamburger .hamburger-box .hamburger-inner::before {
+    height: 1px;
+    background: rgba(11,11,11,1.00);
+    box-shadow: 0 0 5px rgba(255,255,255,1.00);
+    width: 30px;
+    right: 0px;
+}
+.hamburger .hamburger-box .hamburger-inner::after {
+    height: 1px;
+    background: rgba(11,11,11,1.00);
+    box-shadow: 0 0 5px rgba(255,255,255,1.00);
+    width: 30px;
+    right: 0px;
+}
+.navimavi.active, .hamburger.active {
+    opacity: 1;
+    pointer-events: all;
+    background: rgba(255,255,255,0);
+    transition: .5s;
+}
+.navimavi {
+    height: 100%;
+    width: auto;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1003;
+    opacity: -1;
+    pointer-events: none;
+    transition: .5s ease-out;
+    text-align: right;
+}
+.navimavi .navi-nav {
+    list-style: none;
+    padding-top: 70px;
+    padding-left: 40px;
+}
+.navimavi .navi-nav li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: .2s;
+}
+.navimavi .navi-nav li a {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    right: 30px;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(255,255,255,1.00);
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(11,11,11,1.00);
+}
+.navimavi .navi-nav li .fa {
+    width: 70px;
+    text-align: center;
+}
+.navimavi .navi-nav li a {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+}
+.navimavi .navi-nav li a::after {
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 1px;
+    box-shadow: 0 0 10px rgba(255,255,255,1.00);
+    background: rgba(11,11,11,1.00);
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform .3s;
+}
+.navimavi .navi-nav li a:hover::after {
+    transform: scale(1, 1);
+}
+.section {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.TitleSec {
+    width: 100%;
+    margin: 0 auto;
+}
+.TitleText {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-top: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    color: rgba(11,11,11,1.00);
+}
+.TitleItem {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    z-index: 999;
+}
+.MainTitle {
+    margin: 0 auto;
+    font-size: 50px;
+    font-family: 'Cormorant Unicase', serif;
+}
+.AboutContainer {
+    width: 98%;
+    height: auto;
+    margin: 10px auto;
+    padding: 30px 0;
+}
+.FooterMob {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.FooterCnt {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+    overflow: hidden;
+    text-align: center;
+}
+.FooterCnt span {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2.0em;
+    font-family: 'Quicksand', sans-serif;
+}
+.FooterCnt p {
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+.FooterContact {
+    width: calc(100%/1);
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+.FtText {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+}
+.FooterSclIcons {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.FooterSclIcons i {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.FooterSclIcons a {
+    font-size: 23px;
+    padding: 0.5%;
+    display: inline-block;
+}
+.FooterSclIcons a {
+    color: rgba(0,0,0,1.00);
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.FooterSclIcons a:hover {
+    color: rgba(200,200,200,1.00);
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.copy {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 1% 0;
+}
+.copy p {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+#formWrap {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+#formWrap p {
+    line-height: 2.0em;
+}
+.formTable {
+    width: 100%;
+    height: auto;
+    margin: 30px auto;
+    padding: 0 10px;
+    border-bottom: 2px solid rgba(11,11,11,1.00);
+}
+#map-canvas {
+    width: 98%;
+    height: 400px;
+    margin: 10px auto;
+}
+@media only screen and (max-width:979px) {
+.NavLogo {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    position: fixed;
+    text-align: left;
+    z-index: 1002;
+    background: rgba(255,255,255,1.00);
+}
+.NavLogo img {
+    width: 100px;
+    height: auto;
+    margin: 10px 40px;
+}
+#Black {
+    opacity: 1;
+}
+.hamburger {
+    outline: 0;
+    position: fixed;
+    right: 0;
+    z-index: 1004;
+    margin: 0 auto;
+    padding: 15px;
+    text-align: right;
+}
+.navimavi.active, .hamburger.active {
+    opacity: 1;
+    pointer-events: all;
+    background: rgba(255,255,255,1.00);
+    transition: .5s;
+}
+.navimavi {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    z-index: 1003;
+    opacity: -1;
+    pointer-events: none;
+    transition: .5s ease-out;
+    text-align: center;
+}
+.navimavi .navi-nav {
+    list-style: none;
+    padding: 10% 0;
+}
+.navimavi .navi-nav li {
+    height: 10vh;
+}
+.navimavi .navi-nav li a {
+    padding: 0;
+	left: 0;
+    text-decoration: none;
+    text-shadow: 0 0 10px rgba(255,255,255,1.00);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    color: rgba(11,11,11,1.00);
+}
+.section {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.MainTitle {
+    margin: 0 auto;
+    font-size: 30px;
+    font-family: 'Cormorant Unicase', serif;
+}
+.TitleItem p:nth-child(1), .TitleItem p:nth-child(3) {
+    margin-left: 0;
+}
+.TitleItem p:nth-child(2) {
+    margin-right: 0;
+}
+.AboutContainer {
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+}
+.FooterContact {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: left;
+}
+.FooterMob {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.FtText {
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: left;
+    float: none;
+}
+.copy p {
+    font-size: 13px;
+    font-weight: 700;
+    text-align: left;
+    font-family: 'Quicksand', sans-serif;
+}
+}

@@ -1,0 +1,370 @@
+.TitleItem p:nth-child(1), .TitleItem p:nth-child(3) {
+    margin-right: 100px;
+}
+.TitleItem p:nth-child(2) {
+    margin-left: 100px;
+}
+.TitleItem p {
+    padding: 20px 0;
+}
+.booking {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    padding: 100px 0;
+    overflow: hidden;
+}
+.booking-contents, .booking-date {
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6em;
+}
+.booking-contents {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    float: left;
+}
+.booking-date {
+    width: 40%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid rgba(11,11,11,1.00);
+    border-radius: 10px;
+    float: right;
+}
+.stg-til-a, .stg-til-b, .stg-til-c {
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: rgba(11,11,11,1.00);
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2.0em;
+    font-weight: 700;
+}
+.stg-til-b {
+    padding-top: 30px;
+}
+.stg-til-c {
+    padding: 10px 0;
+}
+.bk-a, .bk-b {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    line-height: 2.0em;
+}
+.link {
+    color: rgba(11,11,11,1.00);
+    border-bottom: 1px solid rgba(11,11,11,1.00);
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.link:hover {
+    color: rgba(230,230,230,1.00);
+    border-bottom: 1px solid rgba(230,230,230,1.00);
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+.form-all {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.form-group {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(11,11,11,1.00);
+    text-align: center;
+}
+.reservation-widget {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 50px 15px;
+    text-align: center;
+}
+.booking-date input[type="text"].inp_error, .booking-date input[type="email"].inp_error {
+    border: 1px solid rgba(229,0,3,1.00);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+}
+.booking-date input, select {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 3px;
+    font-size: 15px;
+    color: rgba(11,11,11,1.00);
+    background: rgba(255,255,255,1.00);
+    outline: none;
+    border: 1px solid rgba(200,200,200,1.00);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+:placeholder-shown {
+ font-size: 15px;
+ color: rgba(150,150,150,1.00);
+}
+::-webkit-input-placeholder {
+ font-size: 15px;
+ color: rgba(150,150,150,1.00);
+}
+:-moz-placeholder {
+ font-size: 15px;
+ color: rgba(150,150,150,1.00);
+}
+::-moz-placeholder {
+ font-size: 15px;
+ color: rgba(150,150,150,1.00);
+}
+:-ms-input-placeholder {
+ font-size: 15px;
+ color: rgba(150,150,150,1.00);
+}
+.btn-sub input {
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px 25px;
+    font-size: 14px;
+    color: rgba(11,11,11,1.00);
+    outline: none;
+    background: none;
+    border: 1px solid rgba(11,11,11,1.00);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.btn-sub input:hover {
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px 25px;
+    font-size: 14px;
+    color: rgba(255,255,255,1.00);
+    outline: none;
+    background: rgba(11,11,11,1.00);
+    border: 1px solid rgba(11,11,11,1.00);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+/* datepicker 
+----------------------------------*/
+.ui-datepicker {
+    display: none;
+}
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+}
+.ui-datepicker {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255,255,255,1.00);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    border: 1px solid rgba(11,11,11,1.00);
+}
+.ui-datepicker a {
+    color: rgba(11,11,11,1.00);
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.ui-datepicker a:hover {
+    color: rgba(220,220,220,1.00);
+    text-decoration: none;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.ui-datepicker-calendar {
+    width: 100%;
+}
+.ui-datepicker-header {
+    color: rgba(11,11,11,1.00);
+    padding: 15px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.ui-datepicker-calendar thead th {
+    color: rgba(11,11,11,1.00);
+}
+.ui-datepicker-calendar th, .ui-datepicker-calendar td {
+    font-size: 18px;
+    color: rgba(220,220,220,1.00);
+    text-align: center;
+}
+.ui-datepicker-calendar td span {
+    display: block;
+    padding: 10px 5px;
+    text-align: center;
+}
+.ui-datepicker-calendar td a {
+    color: rgba(11,11,11,1.00);
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 0%;
+}
+.ui-datepicker-title {
+    clear: both;
+}
+.ui-datepicker-prev {
+    float: left;
+    cursor: pointer;
+}
+.ui-datepicker-next {
+    float: right;
+    cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-prev .ui-icon, .ui-datepicker .ui-datepicker-next .ui-icon {
+    display: block;
+    margin: -0.5em;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    text-indent: -28.5px;
+    color: rgba(11,11,11,1.00);
+    width: 0;
+    height: 0;
+    border: 10px solid transparent;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.ui-datepicker .ui-datepicker-prev .ui-icon {
+    border-right: 10px solid rgba(11,11,11,1.00);
+}
+.ui-datepicker .ui-datepicker-prev .ui-icon:hover {
+    border-right: 10px solid rgba(100,100,100,1.00);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.ui-datepicker .ui-datepicker-next .ui-icon {
+    border-left: 10px solid rgba(11,11,11,1.00);
+}
+.ui-datepicker .ui-datepicker-next .ui-icon:hover {
+    border-left: 10px solid rgba(100,100,100,1.00);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.ui-datepicker button {
+    font-size: 15px;
+    color: rgba(11,11,11,1.00);
+    padding: 5px 25px;
+    margin: 10px;
+    outline: none;
+    background: none;
+    border: 1px solid rgba(11,11,11,1.00);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+.ui-datepicker button:hover {
+    font-size: 15px;
+    color: rgba(255,255,255,1.00);
+    padding: 5px 25px;
+    margin: 10px;
+    outline: none;
+    background: rgba(11,11,11,1.00);
+    border: 1px solid rgba(11,11,11,1.00);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+}
+/* datepicker active select
+----------------------------------*/
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    color: rgba(255,255,255,1.00);
+    background: rgba(11,11,11,1.00);
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    color: rgba(255,255,255,1.00);
+    background: rgba(11,11,11,1.00);
+}
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    color: rgba(11,11,11,1.00);
+    text-decoration: none;
+    background: rgba(11,11,11,1.00);
+}
+/* datepicker active select today
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    color: rgba(225,0,3,1.00);
+}
+/* Interaction Cues
+----------------------------------*/
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    background: rgba(135,135,135,1.00);
+    color: rgba(255,255,255,1.00);
+}
+.ui-state-highlight a, .ui-widget-content .ui-state-highlight a, .ui-widget-header .ui-state-highlight a {
+    color: rgba(255,255,255,1.00);
+}
+
+@media only screen and (max-width:959px) {
+.booking {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.stg-til-a, .stg-til-b {
+    font-size: 17px;
+    color: rgba(11,11,11,1.00);
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 2.0em;
+}
+.bk-a {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 13px;
+    line-height: 1.6em;
+}
+.booking-contents {
+    width: 100%;
+    height: auto;
+    padding: 10% 0;
+    float: none;
+}
+.booking-date {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 2px solid rgba(11,11,11,1.00);
+    border-radius: 10px;
+    float: right;
+}
+.form-group {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 5px;
+}
+.ui-datepicker {
+    width: 90%;
+    margin: 0 auto;
+    background: rgba(255,255,255,1.00);
+    font-family: 'Quicksand', sans-serif;
+    border: 1px solid rgba(11,11,11,1.00);
+    text-align: center;
+}
+.ui-datepicker-calendar th, .ui-datepicker-calendar td {
+    font-size: 14px;
+    color: rgba(220,220,220,1.00);
+    text-align: center;
+}
+.ui-datepicker-calendar td a {
+    color: rgba(11,11,11,1.00);
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+    width: 35%;
+    border-radius: 0%;
+}
+}
