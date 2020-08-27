@@ -46,7 +46,7 @@
     font-family: 'Quicksand', sans-serif;
 }
 .wBg {
-    background: #fff url(https://mimitoki.github.io/public/demos/restaurant/ceppo/type-01/image/titlebg.jpg);
+    background: #fff url('https://mimitoki.github.io/public/demos/restaurant/ceppo/type-01/image/titlebg.jpg');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -148,7 +148,7 @@
     padding: 100px 0;
     overflow: hidden;
     text-align: center;
-    background: url(https://mimitoki.github.io/public/demos/restaurant/ceppo/type-01/image/head/bgimg.jpg) repeat;
+    background: url('https://mimitoki.github.io/public/demos/restaurant/ceppo/type-01/image/head/bgimg.jpg') repeat;
     background-size: 30%;
 }
 .MainSec {
